@@ -1,8 +1,9 @@
 # Visualisateur de Séries de Fourier (SVG)
 
-Ce programme lit un fichier vectoriel (SVG) et tente de le redessiner en utilisant une série d'épicycles (cercles tournants), basé sur le principe de la Transformée de Fourier Discrète.
+Ce projet est un visualisateur interactif de séries de Fourier appliquées à des formes vectorielles.
+À partir d’un fichier SVG, le programme extrait un chemin, calcule sa Transformée de Fourier Discrète, puis reconstruit la forme à l’aide d’une suite d’épicycles (cercles en rotation).
 
-C'est une visualisation mathématique de la manière dont une somme de rotations simples peut créer des formes complexes.
+La visualisation montre comment une somme de rotations complexes permet de reproduire des dessins détaillés, tout en offrant un rendu fluide et interactif en temps réel.
 
 ## Fonctionnalités
 
@@ -33,6 +34,7 @@ Installez les dépendances via pip :
 ```Bash
 pip install -r requirements.txt
 ```
+<hr>
 
 Lancer le programme
 ```Bash
