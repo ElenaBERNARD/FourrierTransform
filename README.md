@@ -37,6 +37,8 @@ La visualisation montre comment une somme de rotations complexes permet de repro
 
 Assurez-vous d'avoir Python installé
 
+Clonnez ce depôt Github
+
 Installez les dépendances via pip :
 ```Bash
 pip install -r requirements.txt
